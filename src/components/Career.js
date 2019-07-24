@@ -17,7 +17,7 @@ const Career = ({careers = []}) => {
     return (
         <Card className="career">
             <Fragment>
-                <h2>Work Experience</h2>
+                <h2>Experience</h2>
                 <ul>
                     {careers.map(renderItem) }
                 </ul>

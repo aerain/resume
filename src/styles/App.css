@@ -2,6 +2,7 @@
   background-color: #ffffff;
   padding: 25px;
   margin: 0 0 10px 0;
+  box-sizing: border-box;
 }
 
 .profile {
@@ -9,18 +10,21 @@
 }
 
 .profile > * {
-  animation-duration: 1.25s;
+  animation-duration: 1s;
   animation-name: slidein;
   animation-fill-mode: both;
+  
 }
 
 @keyframes slidein {
   from {
     visibility: hidden;
+    transform:translateY(-15px);
     opacity: 0;
   }
   to {
     visibility: visible;
+    transform:translateY(0);
     opacity: 1;
   }
 }
@@ -87,18 +91,21 @@
 .skill,.career,.presentation,.project {
   animation-fill-mode: both;
   animation-duration: 0.5s;
+  animation-timing-function: ease;
   animation-name: goingup;
 }
 
 @keyframes goingup {
   from {
     visibility: hidden;
-    margin-top: 100vh;
+    opacity: 0;
+    transform:translateY(100vh);
   }
 
   to {
     visibility: visible;
-    margin-top: 0%;
+    opacity: 1;
+    transform:translateY(0%);
   }
 }
 
@@ -155,7 +162,9 @@
 }
 
 .presentation > ul > li > .description,.project > ul > li > .description {
-  line-height: 1.6rem;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  white-space: pre-line;
 }
 
 .presentation > ul > li > ul.skills,.project > ul > li > ul.skills {
@@ -179,7 +188,9 @@
   display: list-item !important;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;   
+  text-overflow: ellipsis; 
+  line-height: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .presentation > ul > li > ul.etc > li > a,.project > ul > li > ul.etc > li > a {
