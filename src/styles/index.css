@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700');
+
+html, body { margin: 0; padding: 0; }
+body { background-color: #f7f7f7; display: flex; flex-direction: column; }
+a { text-decoration: none; }
+ul { padding: 0; }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#container * {
+  display: flex;
+  font-family: 'Nanum Myeongjo'
+}
+
+@media all and (min-width: 768px) {
+  #container {
+    align-items: center;
+  }
+}
