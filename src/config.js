@@ -3,7 +3,7 @@ const config = {
         githubAccountId: "aerain",
         profileImg: "https://avatars3.githubusercontent.com/u/11453924?s=460&v=4",
         email: "j40f893@gmail.com",
-        phone: "+82) 10-2309-3537"
+        description: "백엔드 개발을 좋아하는 개발자입니다."
     },
     skills: [
         "JAVA", 
@@ -13,7 +13,8 @@ const config = {
         "React.js", 
         "React-Native", 
         "Git", 
-        "Node.js"
+        "Node.js",
+        "OS(Mac, Ubuntu, CentOS, Windows)"
     ],
     careers: [
         {
@@ -27,11 +28,18 @@ const config = {
             description: "카카오 제주스마트 팀에서 제주위드카카오 프론트엔드 개발 어시스턴트로 근무 중입니다. 사이트의 OpenGraph 관련 메타태그 처리를 담당했습니다."
         }
     ],
+    educations: [
+        {
+            name: "Kakaotrack in JNU",
+            duration: "2017.03 ~",
+            description: "2017년부터 제주대학교와 카카오가 주관하는 카카오트랙 교육을 받고 있습니다."
+        }
+    ],
     presentations: [
         {
             name: "제주도 데이터 사이언스 캐글 밋업",
             duration: "2019.01 ~ 2019.03",
-            description: "캐글 플랫폼을 활용한 데이터 사이언스와 자기가 분석하고 싶은 데이터를 분석하고, 이를 데이터 사이언스에 관심있는 도민들에게 발표하는 자리를 가졌습니다.",
+            description: "캐글 플랫폼을 활용한 데이터 사이언스와 자기가 분석하고 싶은 데이터를 분석하고, 이를 데이터 사이언스에 관심있는 도민들에게 발표하는 자리를 가졌습니다. 저희가 맡은 팀은 League Of Legends의 유명 플레이어인 Faker 선수의 최근 약 5000여 건의 데이터를 SVM, Deep Forest 기법을 통해 분석하고 승패 유무를 classification 하였습니다.",
             contribution: "League Of Legends API를 사용하여 특정 사용자의 데이터를 크롤링하고, Pandas, Matplotlib 를 사용해 분석하였습니다.",
             skills: ["Node.js", "Python", "Pandas", "Sklearn", "Matplotlib"],
             etc: ["https://docs.google.com/presentation/d/16K9oEVgYCa2dv3vnP1ioWNT2TESMNXjcg8ZqrrF1al8/edit?usp=sharing"],
