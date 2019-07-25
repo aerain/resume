@@ -4,7 +4,7 @@ import { GoMarkGithub } from 'react-icons/go'
 import { IoIosMail, IoIosPhonePortrait } from 'react-icons/io';
 import { Card } from './component';
 
-const Profile = ({profileImg = undefined, githubAccountId = '', email = undefined, phone = undefined}) => {
+const Profile = ({profileImg = undefined, githubAccountId = '', email = undefined, phone = undefined, description = ""}) => {
     return (
         <Card className="profile">
             <Fragment>
@@ -28,7 +28,7 @@ const Profile = ({profileImg = undefined, githubAccountId = '', email = undefine
                     </div>
                 </div>
                 <div className="description">
-                    깡패신입 함 되보고싶다 ㅠ
+                    {Object.prototype.toString.call(description) === '[object String]' && description}
                 </div>
             </Fragment>
         </Card>
@@ -39,7 +39,8 @@ Profile.propTypes = {
     profileImg: PropTypes.string,
     githubAccountId: PropTypes.string,
     email: PropTypes.string,
-    phone: PropTypes.string
+    phone: PropTypes.string,
+    description: PropTypes.string,
 };
 
 export default Profile;
