@@ -84,11 +84,14 @@
 
 .profile > .description {
   animation-delay: 0.5s;
+  flex: 1;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
-.skill,.career,.presentation,.project {
+.card:nth-child(n+2) {
+  flex-direction: column;
   animation-fill-mode: both;
   animation-duration: 0.5s;
   animation-timing-function: ease;
@@ -109,32 +112,29 @@
   }
 }
 
-.skill {
-  animation-delay: 1s;
-  flex-direction: column;
-}
+.card:nth-child(2) { animation-delay: 1s; }
+.card:nth-child(3) { animation-delay: 1.1s; }
+.card:nth-child(4) { animation-delay: 1.2s; }
+.card:nth-child(5) { animation-delay: 1.3s; }
+.card:nth-child(6) { animation-delay: 1.4s; }
+.card:nth-child(7) { animation-delay: 1.5s; }
 
-.career {
-  animation-delay: 1.1s; 
-  flex-direction: column;
-}
-
-.skill > ul,.career > ul {
+.skill > ul,.career > ul,.education > ul {
   display: block !important;
   list-style-type: circle;
   padding-left: 40px;
 }
 
-.skill > ul > li,.career > ul > li {
+.skill > ul > li,.career > ul > li,.education > ul > li {
   display: list-item !important;
   margin: 0 0 8px 0;
 }
 
-.career > ul > li div {
+.career > ul > li div, .education > ul > li div {
   margin: 4px 0;
 }
 
-.career > ul > li > .description {
+.career > ul > li > .description, .education > ul > li > .description {
   padding: 16px 0;
   line-height: 1.6rem;
 }
@@ -142,10 +142,6 @@
     flex-direction: column;
 }
 
-.presentation {
-  animation-delay: 1.2s;
-  flex-direction: column;
-}
 .presentation > ul,.project > ul {
   flex-direction: column;
 }
@@ -197,13 +193,6 @@
   display: inline !important;
 }
 
-.project {
-  animation-delay: 1.3s;
-  flex-direction: column;
-}
-
-
-
 @media all and (min-width: 768px) {
   .card {
     width: 768px;
@@ -226,13 +215,14 @@
   }
   .profile > .description {
     padding-left: 25px;
+    justify-content: center;
   }
 
-  .career > ul > li > .language {
+  .career > ul > li > .language,.education > ul > li > .language {
     flex-direction: row;
   }
 
-  .career > ul > li > .language > div {
+  .career > ul > li > .language > div, .education > ul > li > .language > div {
     margin-right: 8px;
   }
 }
