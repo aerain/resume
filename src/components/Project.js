@@ -1,6 +1,6 @@
-import React, {Fragment} from 'react'
+import React, {Fragment, useState} from 'react'
 import { Card } from './component';
-
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 const renderEtc = (etc) => (
     <Fragment>
         <h4 className="subtitle">참고</h4>
@@ -27,10 +27,17 @@ const renderItem = (item, index) => (
 )
 
 const Project = ({projects = []}) => {
+    const [fold, setFold] = useState(true);
+    let className = fold ? "project fold" : "project";
+    let icon = fold ? <IoIosArrowDown /> : <IoIosArrowUp />;
+    let iconDescription = fold ? "펼치기" : "접기";
     return(
-        <Card className="project">
+        <Card className={className}>
             <Fragment>
-                <h2>Project</h2>
+                <header>
+                    <h2>Project</h2>
+                    <button onClick={() => setFold(!fold)}>{iconDescription}&nbsp;{icon}</button>
+                </header>
                 <ul>{projects.map(renderItem)}</ul>
             </Fragment>
         </Card>

@@ -92,6 +92,7 @@
 
 .card:nth-child(n+2) {
   flex-direction: column;
+  overflow: hidden;
   animation-fill-mode: both;
   animation-duration: 0.5s;
   animation-timing-function: ease;
@@ -191,6 +192,21 @@
 
 .presentation > ul > li > ul.etc > li > a,.project > ul > li > ul.etc > li > a {
   display: inline !important;
+}
+
+.project > header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project > header > button {
+  color: #5577ee;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.fold > ul {
+  height: 0;
+  overflow: hidden;
 }
 
 @media all and (min-width: 768px) {

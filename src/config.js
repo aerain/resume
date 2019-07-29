@@ -3,7 +3,7 @@ const config = {
         githubAccountId: "aerain",
         profileImg: "https://avatars3.githubusercontent.com/u/11453924?s=460&v=4",
         email: "j40f893@gmail.com",
-        description: "백엔드 개발을 좋아하는 개발자입니다."
+        description: "웹 풀스택을 꿈꾸는 개발자입니다. 현재 자바스크립트와 자바를 주로 다루고 있습니다. 현재는 백엔드 관련 기술을 공부하고 있습니다."
     },
     skills: [
         "JAVA", 
@@ -52,7 +52,7 @@ const config = {
             description: `기존에 서비스 되던 제주대 꿀팁 앱의 개발자 선배님이 졸업하셔서 이에 ui 개편과 유지보수를 직접 하기 위해 개발하였습니다. 제주대 내 학생 식당, 기숙사식당 주간 메뉴, 도서 좌석 등, 제주대학교 학생들이 알아두면 좋은 꿀팁들을 모았습니다. 
             
             Play Store에 현재 업로드중이며, App Store 게시는 학생이 부담하기엔 높은 가격이어서 잠시 보류중입니다.`,
-            contribution: "PM을 맡아 UX/UI 개발, 제주대 사이트 크롤링 등 전반적인 핵심 코어를 개발하였습니다",
+            contribution: "PM을 맡았습니다. UX/UI 디자인과 FE 개발, 제주대 사이트 크롤링 파트 등을 개발하였습니다.",
             skills: ["React-Native", "ES6+", "Android", "iOS"],
             etc: [
                 "https://play.google.com/store/apps/details?id=com.jedaeroreactnative",
@@ -62,11 +62,9 @@ const config = {
         {
             name: "제주대학교 컴퓨터공학전공 코드 페스티벌",
             duration: "2018.10.27 ~ 2018.11.26",
-            description: `컴퓨터공학전공 학생들을 대상으로 한 알고리즘 웹 플랫폼입니다. 
-            사용자는 부여받은 아이디와 비밀번호를 입력하여 로그인하면, 학년별로 배정받은 알고리즘 문제를 풀 수 있습니다.
-            알고리즘 문제를 풀고나서 제출하면, 코드의 내용은 전부 파일시스템에 저장되고, 정답을 맞출경우에는 DB에 반영되어 자신이 맞춘 문제 수를 확인할 수 있습니다.`,
+            description: `컴퓨터공학전공 학생들을 대상으로 한 알고리즘 웹 플랫폼입니다. 학생회로 있던 때 학생들의 학업 증진을 위해 직접 개발했습니다.`,
             contribution: "PM을 맡아 UX/UI 전반과 언어별 컴파일 로직등의 코어 개발을 맡았습니다.",
-            skills: ["SpringBoot", "Thymeleaf", "HTML5/CSS3/JavaScript(ES6+)", "AJAX"],
+            skills: ["JAVA", "SpringBoot", "Thymeleaf", "HTML5/CSS3/JavaScript(ES6+)", "AJAX"],
             etc: ["https://github.com/JNU-CE-Code-Festival/Server"],
         }, 
         {
@@ -92,15 +90,26 @@ const config = {
             일반 구매자를 위한 플랫폼이 아니라, GMarket, 11st, TicketMonster, Coupang 등의 다양한 오픈마켓에서 티켓을 판매하는 판매자들을 위한 무형 상품을 통합 관리 서비스입니다. 또한 특정 장소에서 바코드 스캐너등의 기기를 사용할 수 없을 때 핸드폰으로 발권된 쿠폰의 사용 처리를 간편하게 작업할 수 있습니다.`,
             contribution: "모바일 Front-End의 전반적인 개발을 맡았으며 AWS SDK 를 사용하여 앱과 연동할 수 있게 개발하였습니다.",
             skills: ["React-Native", "JavaScript(ES6+)", "Cognito", "DynamoDB"],
-            etc: ["https://play.google.com/store/apps/details?id=com.jedaeroreactnative"],
         },
         {
             name: "BLE Beacon을 활용한 반려견 위치 추적 시스템",
             duration: "2017.08~ 2018.08",
             description: `집 안에 세 개의 BLE 비콘을 부착하면, 비콘에서 송출하는 RSSI 신호와 TxPower를 분석하여 세 비콘과 반려견과의 각 거리를 구합니다. 구해낸 세 거리를 통하여 삼변 측량을 통해 좌표를 계산하고 이를 서버에 POST하면, 서버에서 이를 받아 반려견의 현재 위치를 그려주는 시스템입니다.`,
-            contribution: "RSSI 신호 안정화를 위한 소프트웨어 필터링을 맡았고, 테스트를 위한 안드로이드 앱을 개발하였습니다.",
+            contribution: `RSSI 신호 안정화를 위한 소프트웨어 필터링을 맡았고, 테스트를 위한 안드로이드 앱을 개발하였습니다. 이후 필터링 관련으로 한국 컴퓨터정보학회에서 우수 논문을 수상하였습니다.
+            
+            위치 측정을 위한 비콘의 RSSI 안정화, 김우찬, 이청길, 곽호영, KSCI-2019-013, 한국컴퓨터정보학회 동계학술대회 우수 논문`,
             skills: ["JAVA", "Android", "Android BLE", "Kalman-Filter", "Moving-Average", "iBeacon GATT specification"],
-            etc: ["https://play.google.com/store/apps/details?id=com.jedaeroreactnative"],
+        },
+        {
+            name: "공.대 - 공사 대신 해드립니다.",
+            duration: "2019.05.25 ~ 2019.06.21",
+            description: `JPA를 처음 익히고 만든 첫 프로젝트입니다. 다나와의 PC 겨적 역경매 서비스에 착안하여 개발하였습니다.
+            
+            인테리어 리모델링을 원하는 사용자가 변경 상세리스트를 작성하면, 인테리어 업체에서 리스트를 확인하고 요구사항에 맞는 상품 리스트와 함께 적정 구매가를 제시합니다.
+            이후 클라이언트는 업체들의 견적서중 자신이 원하는 업체를 정하게 되고 최종 계약이 완료되는 구조입니다.`,
+            contribution: "개인 프로젝트인만큼 전반적인 내용을 담당했습니다.",
+            skills: ["JAVA", "SpringBoot", "JPA", "React.js", "HTML5/CSS3/JavaScript(ES6+)"],
+            etc: ["https://github.com/aerain/gongdae"],
         }
     ]
 }
