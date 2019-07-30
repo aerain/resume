@@ -42,7 +42,7 @@ const config = {
             description: "캐글 플랫폼을 활용한 데이터 사이언스와 자기가 분석하고 싶은 데이터를 분석하고, 이를 데이터 사이언스에 관심있는 도민들에게 발표하는 자리를 가졌습니다. 저희가 맡은 팀은 League Of Legends의 유명 플레이어인 Faker 선수의 최근 약 5000여 건의 데이터를 SVM, Deep Forest 기법을 통해 분석하고 승패 유무를 classification 하였습니다.",
             contribution: "League Of Legends API를 사용하여 특정 사용자의 데이터를 크롤링하고, Pandas, Matplotlib 를 사용해 분석하였습니다. 동시에 발표 사회를 맡아 이번 행사의 진행을 맡았습니다.",
             skills: ["Node.js", "Python", "Pandas", "Sklearn", "Matplotlib"],
-            images: ["/images/meetup/meetup1.png"],
+            images: ["images/meetup/meetup1.png"],
             etc: ["https://docs.google.com/presentation/d/16K9oEVgYCa2dv3vnP1ioWNT2TESMNXjcg8ZqrrF1al8/edit?usp=sharing"],
         }
     ],
@@ -55,7 +55,7 @@ const config = {
             Play Store에 현재 업로드중이며, App Store 게시는 학생이 부담하기엔 높은 가격이어서 잠시 보류중입니다.`,
             contribution: "PM을 맡았습니다. UX/UI 디자인과 FE 개발, 제주대 사이트 크롤링 파트 등을 개발하였습니다.",
             skills: ["React-Native", "ES6+", "Android", "iOS"],
-            images: ["/images/jedaero/jedaero1.png", "/images/jedaero/jedaero2.png", "/images/jedaero/jedaero3.png"],
+            images: ["images/jedaero/jedaero1.png", "images/jedaero/jedaero2.png", "images/jedaero/jedaero3.png"],
             etc: [
                 "https://play.google.com/store/apps/details?id=com.jedaeroreactnative",
                 "https://github.com/aerain/jedaeroReactNative"
@@ -67,7 +67,7 @@ const config = {
             description: `컴퓨터공학전공 학생들을 대상으로 한 알고리즘 웹 플랫폼입니다. 학생회로 있던 때 학생들의 학업 증진을 위해 직접 개발했습니다.`,
             contribution: "PM을 맡아 UX/UI 전반과 언어별 컴파일 로직등의 코어 개발을 맡았습니다.",
             skills: ["JAVA", "SpringBoot", "Thymeleaf", "HTML5/CSS3/JavaScript(ES6+)", "AJAX"],
-            images: ["/images/codefestival/codefestival.png"],
+            images: ["images/codefestival/codefestival.png"],
             etc: ["https://github.com/JNU-CE-Code-Festival/Server"],
         }, 
         {
@@ -77,7 +77,7 @@ const config = {
             알바천국, 알바몬 홈페이지가 아닐경우에는 별도의 메신저가 필요없이 내게 쓰기로 메모를 보낼 수 있습니다. 또한 알바 급여 정보를 계산할 수 있게 지원해 주는 기능도 제공합니다.`,
             contribution: "React와 SPA에 대한 개발 전반을 담당하였습니다.",
             skills: ["React.js", "SPA", "Chrome Extension"],
-            images: ["/images/albatalk/albatalk1.png", "/images/albatalk/albatalk2.png", "/images/albatalk/albatalk4.png"],
+            images: ["images/albatalk/albatalk1.png", "images/albatalk/albatalk2.png", "images/albatalk/albatalk4.png"],
             etc: [
                 "https://albatalk.github.io",
                 "https://chrome.google.com/webstore/detail/%EC%95%8C%EB%B0%94%ED%86%A1/mfbbbkcmgjogfeoapgheljkhobflkmde",
@@ -94,7 +94,7 @@ const config = {
             일반 구매자를 위한 플랫폼이 아니라, GMarket, 11st, TicketMonster, Coupang 등의 다양한 오픈마켓에서 티켓을 판매하는 판매자들을 위한 무형 상품을 통합 관리 서비스입니다. 또한 특정 장소에서 바코드 스캐너등의 기기를 사용할 수 없을 때 핸드폰으로 발권된 쿠폰의 사용 처리를 간편하게 작업할 수 있습니다.`,
             contribution: "모바일 Front-End의 전반적인 개발을 맡았으며 AWS SDK 를 사용하여 앱과 연동할 수 있게 개발하였습니다.",
             skills: ["React-Native", "JavaScript(ES6+)", "Cognito", "DynamoDB"],
-            images: ["/images/ts/ts1.png"]
+            images: ["images/ts/ts1.png"]
         },
         {
             name: "BLE Beacon을 활용한 반려견 위치 추적 시스템",
@@ -104,7 +104,7 @@ const config = {
         
             위치 측정을 위한 비콘의 RSSI 안정화, 김우찬, 이청길, 곽호영, KSCI-2019-013, 한국컴퓨터정보학회 동계학술대회 우수 논문`,
             skills: ["JAVA", "Android", "Android BLE", "Kalman-Filter", "Moving-Average", "iBeacon GATT specification"],
-            images: ["/images/beacon/beacon.png"],
+            images: ["images/beacon/beacon.png"],
         },
         {
             name: "공.대 - 공사 대신 해드립니다.",
