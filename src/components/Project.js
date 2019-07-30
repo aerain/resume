@@ -40,7 +40,7 @@ const renderItem = (item, index) => {
 
 const Project = ({projects = []}) => {
     const [fold, setFold] = useState(true);
-    let className = fold ? "project" : "project";
+    let className = fold ? "project fold" : "project";
     let icon = fold ? <IoIosArrowDown /> : <IoIosArrowUp />;
     let iconDescription = fold ? "펼치기" : "접기";
     return(

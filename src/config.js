@@ -40,9 +40,9 @@ const config = {
             name: "제주도 데이터 사이언스 캐글 밋업",
             duration: "2019.01 ~ 2019.03",
             description: "캐글 플랫폼을 활용한 데이터 사이언스와 자기가 분석하고 싶은 데이터를 분석하고, 이를 데이터 사이언스에 관심있는 도민들에게 발표하는 자리를 가졌습니다. 저희가 맡은 팀은 League Of Legends의 유명 플레이어인 Faker 선수의 최근 약 5000여 건의 데이터를 SVM, Deep Forest 기법을 통해 분석하고 승패 유무를 classification 하였습니다.",
-            contribution: "League Of Legends API를 사용하여 특정 사용자의 데이터를 크롤링하고, Pandas, Matplotlib 를 사용해 분석하였습니다.",
+            contribution: "League Of Legends API를 사용하여 특정 사용자의 데이터를 크롤링하고, Pandas, Matplotlib 를 사용해 분석하였습니다. 동시에 발표 사회를 맡아 이번 행사의 진행을 맡았습니다.",
             skills: ["Node.js", "Python", "Pandas", "Sklearn", "Matplotlib"],
-            images: ["/images/jedaero/jedaero1.png"],
+            images: ["/images/meetup/meetup1.png"],
             etc: ["https://docs.google.com/presentation/d/16K9oEVgYCa2dv3vnP1ioWNT2TESMNXjcg8ZqrrF1al8/edit?usp=sharing"],
         }
     ],

@@ -11,6 +11,15 @@ const renderEtc = (etc) => (
         </ul>
     </Fragment>
 )
+
+const renderImg = (images) => (
+    <div className="image-container">
+        {images.map((item, index) => (
+            <img key={index} src={item} alt="그림" />
+        ))}
+    </div>
+)
+
 const renderItem = (item, index) => (
     <li key={index}>
         <h3 className="title">{item.name}</h3>
@@ -23,6 +32,7 @@ const renderItem = (item, index) => (
         <ul className="skills">
             {item.skills.map((item, index) => (<li key={index}>{item}</li>))}
         </ul>
+        {item.images && renderImg(item.images)}
         {item.etc && renderEtc(item.etc)}
     </li>
 )
