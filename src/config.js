@@ -25,14 +25,14 @@ const config = {
         {
             name: "Kakao Assistant (제주스마트팀 FE) ",
             duration: "2019.07 ~",
-            description: "카카오 제주스마트 팀에서 제주위드카카오 프론트엔드 개발 어시스턴트로 근무 중입니다. 사이트의 OpenGraph 관련 메타태그 처리를 담당했습니다."
+            description: "카카오 제주스마트 팀에서 제주위드카카오 프론트엔드 개발 어시스턴트로 근무 중입니다. 사이트의 OpenGraph 관련 메타태그 처리에 대해 개발했습니다."
         }
     ],
     educations: [
         {
-            name: "Kakaotrack in JNU",
+            name: "KakaoTrack ScholarShip, Jeju National University",
             duration: "2017.03 ~",
-            description: "2017년부터 제주대학교와 카카오가 주관하는 카카오트랙 교육을 받고 있습니다."
+            description: "2017년부터 제주대학교와 카카오가 주관하는 Kakao트랙 교육을 받고 있습니다."
         }
     ],
     presentations: [
@@ -68,6 +68,18 @@ const config = {
             contribution: "PM을 맡아 UX/UI 전반과 언어별 컴파일 로직등의 코어 개발을 맡았습니다.",
             skills: ["JAVA", "SpringBoot", "Thymeleaf", "HTML5/CSS3/JavaScript(ES6+)", "AJAX"],
             images: ["images/codefestival/codefestival.png"],
+            etc: ["https://github.com/JNU-CE-Code-Festival/Server"],
+        }, 
+        {
+            name: "G.I.F.T - 인디 게임 크라우드 펀딩 플랫폼",
+            duration: "2018.04.10 ~ 2019.06.12",
+            description: `인디게임을 출시하고 싶지만 초기자본을 구하기 어려운 개발자들을 위해 크라우드 펀딩을 통해 자금을 지원하는 서비스입니다. 금융결제원 API 를 사용해 투자 입출금이 가능하며 투자정보에 대한 타임라인도 제공합니다.
+            개발된 인디게임에 대한 정보도 제공하고, 펀딩상품을 관리할 수 있는 개발자용 앱도 있습니다. 4학년 캡스톤 수업때 발표한 작품입니다.
+            
+            SW 중심대학 사업단 캡스톤 은상 수상 작품입니다.`,
+            contribution: "PM을 맡아 앱의 UX/UI 디자인, SpringBoot을 사용한 api 서버를 구축하였습니다.",
+            skills: ["JAVA", "SpringBoot", "Android", "Restful API", "금융결제원 API"],
+            images: ["images/gift/gift.png"],
             etc: ["https://github.com/JNU-CE-Code-Festival/Server"],
         }, 
         {
