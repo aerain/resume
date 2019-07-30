@@ -12,7 +12,8 @@ const config = {
         "HTML5/CSS3/JavaScript(ES6+)", 
         "React.js", 
         "React-Native", 
-        "Git", 
+        "Git",
+        "JPA", 
         "Node.js",
         "OS(Mac, Ubuntu, CentOS, Windows)"
     ],
@@ -72,15 +73,15 @@ const config = {
         }, 
         {
             name: "G.I.F.T - 인디 게임 크라우드 펀딩 플랫폼",
-            duration: "2018.04.10 ~ 2019.06.12",
+            duration: "2019.04.10 ~ 2019.06.12",
             description: `인디게임을 출시하고 싶지만 초기자본을 구하기 어려운 개발자들을 위해 크라우드 펀딩을 통해 자금을 지원하는 서비스입니다. 금융결제원 API 를 사용해 투자 입출금이 가능하며 투자정보에 대한 타임라인도 제공합니다.
             개발된 인디게임에 대한 정보도 제공하고, 펀딩상품을 관리할 수 있는 개발자용 앱도 있습니다. 4학년 캡스톤 수업때 발표한 작품입니다.
             
             SW 중심대학 사업단 캡스톤 은상 수상 작품입니다.`,
             contribution: "PM을 맡아 앱의 UX/UI 디자인, SpringBoot을 사용한 api 서버를 구축하였습니다.",
-            skills: ["JAVA", "SpringBoot", "Android", "Restful API", "금융결제원 API"],
+            skills: ["JAVA", "SpringBoot", "Android", "Restful API", "JPA", "금융결제원 API"],
             images: ["images/gift/gift.png"],
-            etc: ["https://github.com/JNU-CE-Code-Festival/Server"],
+            etc: ["https://github.com/g-i-f-t"],
         }, 
         {
             name: "알바톡 - 알바준비생을 위한 정보 관리 지원 앱.",
