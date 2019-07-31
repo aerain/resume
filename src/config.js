@@ -80,7 +80,7 @@ const config = {
             SW 중심대학 사업단 캡스톤 은상 수상 작품입니다.`,
             contribution: "PM을 맡아 앱의 UX/UI 디자인, SpringBoot을 사용한 api 서버를 구축하였습니다.",
             skills: ["JAVA", "SpringBoot", "Android", "Restful API", "JPA", "금융결제원 API"],
-            images: ["images/gift/gift.png"],
+            images: ["images/gift/gift.png", "images/gift/result.jpg"],
             etc: ["https://github.com/g-i-f-t"],
         }, 
         {

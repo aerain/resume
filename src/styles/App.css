@@ -208,6 +208,11 @@
 
 .project > header > button {
   color: #5577ee;
+  background-color: #ffffff;
+  border: 0.5px solid #e7e7e7;
+  padding: 10px 5px;
+  box-shadow: 2px 2px 8px #d7d7d7;
+  border-radius: 16px;
   font-weight: bold;
   font-size: 1rem;
 }

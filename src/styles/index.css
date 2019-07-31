@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,400,700&display=swap&subset=korean');
 
 html, body { margin: 0; padding: 0; }
 body { background-color: #f7f7f7; display: flex; flex-direction: column; }
 a { text-decoration: none; }
 button { border: 0; background-color: transparent; }
 ul { padding: 0; }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -17,7 +18,8 @@ code {
 
 #container * {
   display: flex;
-  font-family: 'Nanum Myeongjo'
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 300;
 }
 
 @media all and (min-width: 768px) {
