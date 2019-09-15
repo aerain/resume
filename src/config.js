@@ -53,13 +53,14 @@ const config = {
             duration: "2017.09 ~ 2018.11",
             description: `기존에 서비스 되던 제주대 꿀팁 앱의 개발자 선배님이 졸업하셔서 이에 ui 개편과 유지보수를 직접 하기 위해 개발하였습니다. 제주대 내 학생 식당, 기숙사식당 주간 메뉴, 도서 좌석 등, 제주대학교 학생들이 알아두면 좋은 꿀팁들을 모았습니다. 
             
-            Play Store에 현재 업로드중이며, App Store 게시는 학생이 부담하기엔 높은 가격이어서 잠시 보류중입니다.`,
+            Play Store, App Store에 현재 업로드중이며, 각각 다운로드 수 800+, 200+를 기록하고있습니다.`,
             contribution: "PM을 맡았습니다. UX/UI 디자인과 FE 개발, 제주대 사이트 크롤링 파트 등을 개발하였습니다.",
             skills: ["React-Native", "ES6+", "Android", "iOS"],
             images: ["images/jedaero/jedaero1.png", "images/jedaero/jedaero2.png", "images/jedaero/jedaero3.png"],
             etc: [
                 "https://play.google.com/store/apps/details?id=com.jedaeroreactnative",
-                "https://github.com/aerain/jedaeroReactNative"
+                "https://apps.apple.com/kr/app/%EC%A0%9C%EB%8C%80%EB%A1%9C-%EA%B0%80%EC%9E%90/id1477790014",
+                "https://github.com/jnuro/jedaero"
             ],
         }, 
         {
