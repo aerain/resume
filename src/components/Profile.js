@@ -4,7 +4,7 @@ import { GoMarkGithub } from 'react-icons/go'
 import { IoIosMail, IoIosPhonePortrait } from 'react-icons/io';
 import { Card } from './component';
 
-const Profile = ({profileImg = undefined, githubAccountId = '', email = undefined, phone = undefined, description = ""}) => {
+const Profile = ({profileImg = undefined, githubAccountId = '', email = undefined, phone = undefined, description = "", github = ""}) => {
     return (
         <Card className="profile">
             <Fragment>
@@ -18,13 +18,14 @@ const Profile = ({profileImg = undefined, githubAccountId = '', email = undefine
                     </div>
                     <span className="nickname">{githubAccountId}</span>
                     <div>
-                        <a href={`https://github.com/${githubAccountId}`}><GoMarkGithub /></a>
+                        
                     </div>
                     <div className="contact">
-                        {(email || phone) && (<ul>
+                        <ul>
+                            {github && <li><a href={`https://github.com/${githubAccountId}`}><GoMarkGithub />{github} </a></li>}
                             {email && <li><IoIosMail />{email} </li>}
                             {phone && <li><IoIosPhonePortrait /> {phone} </li>}
-                        </ul>)}
+                        </ul>
                     </div>
                 </div>
                 <div className="description">

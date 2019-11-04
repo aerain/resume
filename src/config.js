@@ -3,7 +3,8 @@ const config = {
         githubAccountId: "aerain",
         profileImg: "https://avatars3.githubusercontent.com/u/11453924?s=460&v=4",
         email: "j40f893@gmail.com",
-        description: "웹 풀스택을 꿈꾸는 개발자입니다. 현재 자바스크립트와 자바를 주로 다루고 있습니다. 현재는 백엔드 관련 기술을 공부하고 있습니다."
+        description: "웹 풀스택을 꿈꾸는 개발자입니다. 현재 자바스크립트와 자바를 주로 다루고 있습니다. 현재는 백엔드 관련 기술을 공부하고 있습니다.",
+        github: "https://github.com/aerain"
     },
     skills: [
         "JAVA", 
@@ -49,12 +50,25 @@ const config = {
     ],
     projects: [
         {
+            name: "마리켓(마이 리틀 티켓)",
+            duration: "2019.09 ~ 2019.11",
+            description: ` 무형 상품을 위한 판매 플랫폼입니다. 2학년때 연구과제로 진행했던 것을 경험을 토대로 제작하였습니다. 
+
+             판매자가 상품을 등록하면 일반 사용자가 무형 상품을 구매하여 해당 상품에 대한 쿠폰,티켓을 발급 받을 수 있고, 해당 쿠폰에 찍힌 qr코드를 찍어서 사용처리를 할 수 있습니다.
+             해당 프로젝트는 각자의 기술스택을 쌓고 공부하기 위해서 개발한 프로젝트입니다. 또한 DevOps의 지속적 통합, 전달을 함께 공부하고자 만든 프로젝트입니다.
+
+            제 34회 제주대학교 컴퓨터공학전공 전시회 장려상 수상작품입니다.`,
+            contribution: "PM을 맡았습니다. 스크럼 프로세스 공부를 위해 스크럼 마스터의 직책도 맡았습니다.",
+            skills: ["Spring WebFlux(Java)", "AWS(Elastic BeanStalk, Cognito, DynamoDB)", "GraphQL", "Vue.js(Nuxt.js)", "Travis(CI/CD)", "Android(RxJava, MVVM)"],
+            images: ["images/mylittleticket/prize.jpeg", "images/mylittleticket/teammember.jpeg"]
+        },
+        {
             name: "제대로 가자",
-            duration: "2017.09 ~ 2018.11",
-            description: `기존에 서비스 되던 제주대 꿀팁 앱의 개발자 선배님이 졸업하셔서 이에 ui 개편과 유지보수를 직접 하기 위해 개발하였습니다. 제주대 내 학생 식당, 기숙사식당 주간 메뉴, 도서 좌석 등, 제주대학교 학생들이 알아두면 좋은 꿀팁들을 모았습니다. 
+            duration: "2017.09 ~ 현재",
+            description: `기존에 서비스 되던 제주대 꿀팁 앱의 개발자 선배님이 졸업하셔서 이에 ui 개편과 유지보수를 직접 하기 위해 개발하였습니다. 제주대 학사정보시스템 연동을 수행하여 시간표, 성적등을 체크할 수 있고, 그 밖에 제주대 내 학생 식당, 기숙사식당 주간 메뉴, 도서 좌석 등, 제주대학교 학생들이 알아두면 좋은 꿀팁들을 모았습니다. 
             
-            Play Store에 현재 업로드중이며, App Store 게시는 학생이 부담하기엔 높은 가격이어서 잠시 보류중입니다.`,
-            contribution: "PM을 맡았습니다. UX/UI 디자인과 FE 개발, 제주대 사이트 크롤링 파트 등을 개발하였습니다.",
+            현재 Play Store, App Store에 동시 배포중이며 Play Store는 약 800건의 다운로드, App Store는 300건의 다운로드를 기록하였습니다.`,
+            contribution: "PM을 맡았습니다. UX/UI 디자인과 FE 개발, 제주대 사이트 크롤링, 제주대 학사정보시스템 연동을 담당하였습니다.",
             skills: ["React-Native", "ES6+", "Android", "iOS"],
             images: ["images/jedaero/jedaero1.png", "images/jedaero/jedaero2.png", "images/jedaero/jedaero3.png"],
             etc: [
