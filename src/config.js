@@ -26,14 +26,14 @@ const config = {
         },
         {
             name: "Kakao Assistant (제주스마트팀 FE) ",
-            duration: "2019.07 ~",
+            duration: "2019.07 ~ 2020.01",
             description: "카카오 제주스마트 팀에서 제주위드카카오 프론트엔드 개발 어시스턴트로 근무 중입니다. 사이트의 OpenGraph 관련 메타태그 처리에 대해 개발했습니다."
         }
     ],
     educations: [
         {
             name: "KakaoTrack ScholarShip, Jeju National University",
-            duration: "2017.03 ~",
+            duration: "2017.03 ~ 2019.11",
             description: "2017년부터 제주대학교와 카카오가 주관하는 Kakao트랙 교육을 받고 있습니다."
         }
     ],
@@ -46,6 +46,14 @@ const config = {
             skills: ["Node.js", "Python", "Pandas", "Sklearn", "Matplotlib"],
             images: ["images/meetup/meetup1.png"],
             etc: ["https://docs.google.com/presentation/d/16K9oEVgYCa2dv3vnP1ioWNT2TESMNXjcg8ZqrrF1al8/edit?usp=sharing"],
+        },
+        {
+            name: "DSC JNU 고등학교 강의",
+            duration: "2019.12",
+            description: "DSC JNU 신분으로 제주 오현고등학교 학생을 대상으로 HTML/JavaScript/CSS 강의를 진행했습니다.",
+            contribution: "웹 강의를 맡았습니다. 웹에서 구동되는 간단한 메모장 앱을 개발하였으며, 2차 강의에 사용되는 크롬 확장 앱 강의를 위한 소스 코드를 개발하였습니다.",
+            skills: ["HTML5/CSS3/JavaScript", "Chrome Extension"],
+            images: ["images/meetup/ohyeon.png"],
         }
     ],
     projects: [
@@ -67,7 +75,7 @@ const config = {
             duration: "2017.09 ~ 현재",
             description: `기존에 서비스 되던 제주대 꿀팁 앱의 개발자 선배님이 졸업하셔서 이에 ui 개편과 유지보수를 직접 하기 위해 개발하였습니다. 제주대 학사정보시스템 연동을 수행하여 시간표, 성적등을 체크할 수 있고, 그 밖에 제주대 내 학생 식당, 기숙사식당 주간 메뉴, 도서 좌석 등, 제주대학교 학생들이 알아두면 좋은 꿀팁들을 모았습니다. 
             
-            Play Store, App Store에 현재 업로드중이며, 각각 다운로드 수 900+, 300+를 기록하고있습니다.`,
+            Play Store, App Store에 현재 업로드중이며, 각각 다운로드 수 1000+, 500+를 기록하고있습니다.`,
             contribution: "PM을 맡았습니다. UX/UI 디자인과 FE 개발, 제주대 사이트 크롤링 파트 등을 개발하였습니다.",
             skills: ["React-Native", "ES6+", "Android", "iOS"],
             images: ["images/jedaero/jedaero1.png", "images/jedaero/jedaero2.png", "images/jedaero/jedaero3.png"],
